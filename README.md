@@ -23,20 +23,27 @@ docker ps
 # Example Usage
 
 **Launch interactive TUI mode**
+
 ./docker-manager interactive
 
 **Launch with compact view**
+
 ./docker-manager interactive --compact
 
 **List containers in static mode**
+
 ./docker-manager list
+
 ./docker-manager list --all
 
 **Show real-time stats**
+
 ./docker-manager stats
 
 **View container logs**
+
 ./docker-manager logs my-container
+
 ./docker-manager logs --tail 50 my-container
 
 # Key Features
