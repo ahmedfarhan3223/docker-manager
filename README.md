@@ -18,7 +18,7 @@ sudo cp docker-manager /usr/local/bin/
 
 # 4. Verify Docker Connection
 
-# Ensure Docker daemon is running
+Ensure Docker daemon is running
 docker ps
 # Example Usage
 
