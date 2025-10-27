@@ -22,25 +22,25 @@ Ensure Docker daemon is running
 docker ps
 # Example Usage
 
-**Launch interactive TUI mode**
+**Launch interactive TUI mode:**
 
 ./docker-manager interactive
 
-**Launch with compact view**
+**Launch with compact view:**
 
 ./docker-manager interactive --compact
 
-**List containers in static mode**
+**List containers in static mode:**
 
 ./docker-manager list
 
 ./docker-manager list --all
 
-**Show real-time stats**
+**Show real-time stats:**
 
 ./docker-manager stats
 
-**View container logs**
+**View container logs:**
 
 ./docker-manager logs my-container
 
