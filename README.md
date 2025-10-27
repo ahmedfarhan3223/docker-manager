@@ -7,7 +7,7 @@ Install Docker
 # 2. Build the Application
 Clone the project 
 
-# Initialize and build
+Initialize and build
 cd docker-manager
 go mod tidy
 go build -o docker-manager .
