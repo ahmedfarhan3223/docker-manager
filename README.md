@@ -1,46 +1,45 @@
 # docker-manager
-**1. Prerequisites**
+# 1. Prerequisites
 
-# Install Go (1.21+)
-# Install Docker
+Install Go (1.21+)
+Install Docker
 
-**2. Build the Application**
-
-# Clone the project 
+# 2. Build the Application
+Clone the project 
 
 # Initialize and build
 cd docker-manager
 go mod tidy
 go build -o docker-manager .
 
-**3. Install (Optional)**
+# 3. Install (Optional)
 
 sudo cp docker-manager /usr/local/bin/
 
-**4. Verify Docker Connection**
+# 4. Verify Docker Connection
 
 # Ensure Docker daemon is running
 docker ps
-**Example Usage**
+# Example Usage
 
-# Launch interactive TUI mode
+**Launch interactive TUI mode**
 ./docker-manager interactive
 
-# Launch with compact view
+**Launch with compact view**
 ./docker-manager interactive --compact
 
-# List containers in static mode
+**List containers in static mode**
 ./docker-manager list
 ./docker-manager list --all
 
-# Show real-time stats
+**Show real-time stats**
 ./docker-manager stats
 
-# View container logs
+**View container logs**
 ./docker-manager logs my-container
 ./docker-manager logs --tail 50 my-container
 
-**#Key Features**
+# Key Features
 
 Interactive TUI: Full Bubbletea-based interface with keyboard controls
 
@@ -62,7 +61,7 @@ Resource Thresholds: Color-coded CPU and memory usage
 
 Error Handling: Graceful handling of Docker connection issues
 
-**Keyboard Shortcuts (Interactive Mode)**
+# Keyboard Shortcuts (Interactive Mode)
 ↑/↓: Navigate containers
 
 s: Start container
